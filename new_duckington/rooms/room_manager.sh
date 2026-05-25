@@ -11,23 +11,26 @@ generate_random_room() {
 		echo "you entered a $selected_room room"
 	# i need to make the room show what is in it so 
 
-		if ["$selected_room" = "small" ]; then
-			echo "you enter the small room"
+		if [ "$selected_room" = "small" ]; then
+			echo "you enter the shmall room"
 
-		elif ["$selected_room" = "normal" ]; then
+		elif [ "$selected_room" = "normal" ]; then
 			echo "you entered a normal room "
 
-		else ["$selected_room" = "Huge" ]; then
+		elif [ "$selected_room" = "Huge" ]; then
 			echo "YOU ARE COOKED, YOU ENTERED THE HUGE ROOM"
 
+		fi	
 }
 
-
+greet_user
 
 
 
 # now need to generate 10 different rooms and put it in an order,
 
 # need to use shuf -e command
+
+shuf -e small normal Huge small normal small normal Huge Huge
 
 
