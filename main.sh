@@ -2,6 +2,8 @@
 
 use_input="not set" #valid or error as needed...
 choice=""
+source "$GAME_ROOT/save/save_game.sh"
+
 
 display_title(){
 	echo -e "
@@ -49,10 +51,12 @@ get_user_option()
 	        ;;
 	    2)
 	        echo "Saving progress..."
+	        export_player_data
 	        sleep 2
 	        ;;
 	    3)
 	        echo "Loading game..."
+	        load_player_data
 	        sleep 2
 	        ;;
 	    4)
