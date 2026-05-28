@@ -20,3 +20,5 @@ item_effect() {
 }
 ITEM_RARITY="Common"
 ITEM_NUMBER=003
+ITEM_COST=20
+ITEM_SELL=10

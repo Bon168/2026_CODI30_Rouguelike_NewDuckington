@@ -13,3 +13,5 @@ item_effect() {
 }
 ITEM_RARITY="Legendary"
 ITEM_NUMBER=002
+ITEM_COST=0
+ITEM_SELL=1
