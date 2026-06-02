@@ -4,10 +4,10 @@ export GAME_ROOT="$(dirname "$0")/.."
 source "$GAME_ROOT/data/player_data.sh"
 
 #Skill Properties
-skill_name='Quack'
-skill_description='Makes noise that damages opponent'
-rarity='Common'
-damage=10
+skill_name='Splash'
+skill_description="splash on your opponent"
+rarity ='common'
+damage=5
 energy_cost=5
 
 enemy_health=15 #This is a placeholder variable - update as game further develops

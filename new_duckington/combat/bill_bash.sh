@@ -4,9 +4,9 @@ export GAME_ROOT="$(dirname "$0")/.."
 source "$GAME_ROOT/data/player_data.sh"
 
 #Skill Properties
-skill_name='Quack'
-skill_description='Makes noise that damages opponent'
-rarity='Common'
+skill_name='Bill bash'
+skill_description="Use it's bill to bash opponent"
+rarity ='Uncommon'
 damage=10
 energy_cost=5
 

@@ -4,11 +4,11 @@ export GAME_ROOT="$(dirname "$0")/.."
 source "$GAME_ROOT/data/player_data.sh"
 
 #Skill Properties
-skill_name='Quack'
-skill_description='Makes noise that damages opponent'
-rarity='Common'
-damage=10
-energy_cost=5
+skill_name='Razer bill'
+skill_description="Sharpen it's bill to inflict more damage"
+rarity='epic'
+damage=35
+energy_cost=25
 
 enemy_health=15 #This is a placeholder variable - update as game further develops
 energy_difference=$(($PLAYER_NRG - $energy_cost))
